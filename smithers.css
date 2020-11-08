@@ -1,12 +1,3 @@
-.img1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
-  
-  body {
-  font-family: "Lato", sans-serif;
-}
 /*OpenMenu*/
 .sidenav {
   height: 100%;
@@ -25,13 +16,15 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+   font-weight: 1000;
+   text-shadow: 2px 2px #000000;
+  color: #f8f8ff;
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #111;
 }
 
 .sidenav .closebtn {
@@ -46,3 +39,4 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+/*EndOpenMenu*/
