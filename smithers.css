@@ -47,7 +47,7 @@
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  cursor: url("ratcursor.jpg"), default;
+  cursor: url("ratcursor.png"), default;
 }
 
 .header {
