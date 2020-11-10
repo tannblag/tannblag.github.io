@@ -47,6 +47,7 @@
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  /*Changes cursor to rat*/
   cursor: url("/images/ratcursor.png"), default;
 }
 
