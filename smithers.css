@@ -44,13 +44,6 @@
 /*Header*/
 * {box-sizing: border-box;}
 
-body { 
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  /*Changes cursor to rat*/
-  cursor: url("/images/ratcursor.png"), default;
-}
-
 .header {
   overflow: hidden;
   background-image: url('https://st.depositphotos.com/1106005/1281/i/950/depositphotos_12818526-stock-photo-marijuana-leaf-seamless-background.jpg');
@@ -100,3 +93,10 @@ body {
   }
 }
 /*EndHeader*/
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /*Changes cursor to rat*/
+  cursor: url("/images/ratcursor.png"), default;
+}
