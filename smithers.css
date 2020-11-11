@@ -38,6 +38,7 @@
   float: right;
 }
 
+
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
@@ -69,6 +70,9 @@ body {
   cursor: url("/images/ratcursor.png"), default;
 }
 
+main {
+  padding-bottom:40px;
+}
 
 #mainbox {
     background-color:lightgreen;
@@ -77,21 +81,35 @@ body {
     height: auto;
 }
 
-#cardmargins {
-  display:flex;
+#cardcontainer {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 2em;
   margin-left:20%;
   margin-right:20%;}
+
 .card {
   display: inline-block;
   background-color: lightgrey;
-  width: 250px;
   border: 15px solid green;
   padding: 25px;
-  margin: 1em;
   font-size:.8em;
-  
 }
 
 html {
   font-size:0.9em;
+}
+
+
+@media screen and (max-width: 1000px) {
+  #cardcontainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  #cardcontainer {
+    grid-template-columns: 1fr;
+  }
 }
