@@ -1,46 +1,3 @@
-/*OpenMenu*/
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-image: url('https://st.depositphotos.com/1106005/1281/i/950/depositphotos_12818526-stock-photo-marijuana-leaf-seamless-background.jpg');
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-   font-weight: 1000;
-   text-shadow: 2px 2px #000000;
-  color: #f8f8ff;
-  display: block;
-  transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #111;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-/*EndOpenMenu*/
-
 /*Header*/
 * {box-sizing: border-box;}
 
@@ -100,7 +57,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-image: url('https://st.depositphotos.com/1106005/1281/i/950/depositphotos_12818526-stock-photo-marijuana-leaf-seamless-background.jpg');;
   color: white;
   text-align: center;}
 /*footer*/
@@ -110,4 +67,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   /*Changes cursor to rat*/
   cursor: url("/images/ratcursor.png"), default;
+}
+
+main {
+  margin-left:200px;
+  background-color:lightgreen;
 }
